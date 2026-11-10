@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- ÍCONE DA ABA DO NAVEGADOR (provisório): substitua pela logo quando tiver -->
+  <circle cx="48" cy="48" r="48" fill="#00629B"/>
+  <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="30" y="30" width="36" height="36" rx="6"/>
+    <path d="M40 30V20M56 30V20M40 66v10M56 66v10M30 40H20M30 56H20M66 40h10M66 56h10"/>
+  </g>
+  <rect x="41" y="41" width="14" height="14" rx="3" fill="#00B5E2"/>
+</svg>

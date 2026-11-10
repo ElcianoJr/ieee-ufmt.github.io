@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramo Estudantil IEEE UFMT | Capítulo IES</title>
+    <meta name="description" content="Ramo Estudantil IEEE da UFMT e Capítulo Estudantil IES: projetos práticos de eletrônica, automação e energia, extensão universitária e networking para estudantes de engenharia em Cuiabá-MT.">
+    <meta name="theme-color" content="#00629B">
+
+    <!-- Compartilhamento (WhatsApp, LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Ramo Estudantil IEEE UFMT | Capítulo IES">
+    <meta property="og:description" content="Projetos práticos, extensão universitária e networking para estudantes de engenharia da UFMT.">
+    <!-- TODO: quando o site tiver endereço definitivo, adicionar og:image e og:url com URLs completas -->
+
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+    <!-- Fontes: Barlow (texto) e Barlow Semi Condensed (títulos) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+
+    <!-- Ícones (sprite SVG): usados com <svg class="icon"><use href="#i-nome"/></svg> -->
+    <svg class="sprite" aria-hidden="true" focusable="false">
+        <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+        <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+        <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></symbol>
+        <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+        <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+        <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="m3.27 6.96 8.73 5.05 8.73-5.05M12 22.08V12"/></symbol>
+        <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+        <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+        <symbol id="i-terminal" viewBox="0 0 24 24"><path d="m4 17 6-6-6-6M12 19h8"/></symbol>
+        <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></symbol>
+        <symbol id="i-robot" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 8V4M9 14h.01M15 14h.01"/><circle cx="12" cy="3.5" r="1"/></symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></symbol>
+        <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></symbol>
+        <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+        <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+    </svg>
+
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <!-- Cabeçalho -->
+    <header class="site-header" id="topo">
+        <div class="container nav">
+            <a class="brand" href="#topo" aria-label="Ramo Estudantil IEEE UFMT, voltar ao início">
+                <!-- Para trocar a logo: substitua assets/img/logo.svg (ou ajuste o src para .png/.webp) -->
+                <img class="brand__logo" src="assets/img/logo.svg" alt="" width="48" height="48">
+                <span class="brand__text">
+                    <span class="brand__name">IEEE UFMT</span>
+                    <span class="brand__sub">Capítulo IES</span>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+                <svg class="icon"><use href="#i-menu"/></svg>
+            </button>
+
+            <nav class="menu" id="menu" aria-label="Principal">
+                <a href="#sobre">Sobre nós</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+                <a class="btn btn--primary btn--sm" href="#junte-se">Junte-se a nós</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <!-- Hero -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero__grid">
+                <div class="hero__text">
+                    <p class="badge"><span class="dot" aria-hidden="true"></span>Ramo Estudantil IEEE da UFMT</p>
+                    <h1 id="hero-title">Inovação, prática e liderança</h1>
+                    <p class="lede">
+                        Somos o Ramo Estudantil IEEE UFMT e o Capítulo Estudantil IES. Transformamos teoria acadêmica em projetos práticos de alto impacto, capacitando a nova geração de engenheiros.
+                    </p>
+                    <div class="actions">
+                        <a class="btn btn--accent" href="#projetos">Conheça nossos projetos</a>
+                        <a class="btn btn--outline" href="#junte-se">Seja um membro</a>
+                    </div>
+                    <!-- TODO: confirmar o número de membros ativos -->
+                    <p class="hero__fact"><span class="dot" aria-hidden="true"></span>Mais de 10 estudantes ativos no ramo</p>
+                </div>
+
+                <div class="hero__visual">
+                    <!-- Trilhas de placa de circuito: desenham uma única vez ao carregar -->
+                    <svg class="traces" viewBox="0 0 600 450" aria-hidden="true" focusable="false">
+                        <path class="trace" pathLength="1" style="--d:.05s" d="M174 140H120V70H60"/>
+                        <path class="trace" pathLength="1" style="--d:.15s" d="M174 190H40"/>
+                        <path class="trace" pathLength="1" style="--d:.25s" d="M174 235H96V300H50"/>
+                        <path class="trace" pathLength="1" style="--d:.35s" d="M174 290H130V380H80"/>
+                        <path class="trace" pathLength="1" style="--d:.1s" d="M426 130H480V60H540"/>
+                        <path class="trace" pathLength="1" style="--d:.2s" d="M426 180H560"/>
+                        <path class="trace" pathLength="1" style="--d:.3s" d="M426 225H500V310H550"/>
+                        <path class="trace" pathLength="1" style="--d:.4s" d="M426 285H470V390H520"/>
+                        <path class="trace" pathLength="1" style="--d:.12s" d="M230 99V50H300V20"/>
+                        <path class="trace" pathLength="1" style="--d:.22s" d="M350 99V40H400"/>
+                        <path class="trace" pathLength="1" style="--d:.32s" d="M240 351V410H300V435"/>
+                        <path class="trace" pathLength="1" style="--d:.42s" d="M360 351V400H420"/>
+
+                        <circle class="node" style="--d:.05s" cx="60" cy="70" r="5"/>
+                        <circle class="node" style="--d:.15s" cx="40" cy="190" r="5"/>
+                        <circle class="node" style="--d:.25s" cx="50" cy="300" r="5"/>
+                        <circle class="node" style="--d:.35s" cx="80" cy="380" r="5"/>
+                        <circle class="node" style="--d:.1s" cx="540" cy="60" r="5"/>
+                        <circle class="node" style="--d:.2s" cx="560" cy="180" r="5"/>
+                        <circle class="node" style="--d:.3s" cx="550" cy="310" r="5"/>
+                        <circle class="node" style="--d:.4s" cx="520" cy="390" r="5"/>
+                        <circle class="node" style="--d:.12s" cx="300" cy="20" r="5"/>
+                        <circle class="node" style="--d:.22s" cx="400" cy="40" r="5"/>
+                        <circle class="node" style="--d:.32s" cx="300" cy="435" r="5"/>
+                        <circle class="node" style="--d:.42s" cx="420" cy="400" r="5"/>
+                    </svg>
+                    <div class="chip">
+                        <!-- Para trocar pelo mascote: substitua assets/img/mascote.svg (ou ajuste o src) -->
+                        <img src="assets/img/mascote.svg" alt="Mascote do Ramo Estudantil IEEE UFMT" width="160" height="160">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre nós -->
+        <section class="section" id="sobre" aria-labelledby="sobre-title">
+            <div class="container about__grid">
+                <div>
+                    <h2 class="section__title" id="sobre-title">Conectando a universidade com as demandas da indústria.</h2>
+                    <p class="section__intro">
+                        O Ramo Estudantil IEEE UFMT é uma ponte entre o conhecimento de sala de aula e a aplicação real. Com foco no Capítulo IES (Industrial Electronics Society), desenvolvemos hardware, ministramos minicursos e preparamos alunos para os desafios do mercado de trabalho.
+                    </p>
+                </div>
+
+                <ul class="pillars">
+                    <li class="pillar">
+                        <span class="pillar__icon"><svg class="icon" aria-hidden="true"><use href="#i-cpu"/></svg></span>
+                        <div>
+                            <h3>Projetos práticos</h3>
+                            <p>Foco absoluto em "mão na massa". Da prototipação em protoboard até a impressão 3D de gabinetes para projetos de automação industrial e eletrônica.</p>
+                        </div>
+                    </li>
+                    <li class="pillar">
+                        <span class="pillar__icon"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg></span>
+                        <div>
+                            <h3>Extensão universitária</h3>
+                            <p>Atuamos ativamente com programas de extensão via SiEx/PROCEV, garantindo horas complementares e levando conhecimento para além dos muros da faculdade.</p>
+                        </div>
+                    </li>
+                    <li class="pillar">
+                        <span class="pillar__icon"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg></span>
+                        <div>
+                            <h3>Networking global</h3>
+                            <p>Faça parte da maior organização profissional técnica do mundo. Tenha acesso a eventos, Travel Grants (como nossa missão no RJ) e conecte-se com líderes globais.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="section section--white" id="projetos" aria-labelledby="projetos-title">
+            <div class="container">
+                <div class="projects__head">
+                    <h2 class="section__title" id="projetos-title">Projetos em destaque</h2>
+                    <p class="section__intro">Soluções que desenvolvemos dentro dos laboratórios da UFMT para capacitar calouros e veteranos.</p>
+                </div>
+
+                <!--
+                    Para usar uma foto no lugar do ícone, coloque a imagem em assets/img/ e adicione
+                    dentro de .project__media:  <img src="assets/img/NOME.jpg" alt="Descrição da foto">
+                -->
+                <div class="project-grid">
+                    <article class="project project--hardware">
+                        <div class="project__media">
+                            <svg class="icon" aria-hidden="true"><use href="#i-box"/></svg>
+                            <span class="project__tag">Hardware</span>
+                        </div>
+                        <div class="project__body">
+                            <h3>Impressora 3D DIY</h3>
+                            <p>Construção do zero de uma impressora cartesiana focada em automação. Utiliza placa BTT SKR Mini E3 V3 e firmware Klipper para máxima performance.</p>
+                            <ul class="chips">
+                                <li>Impressora cartesiana</li>
+                                <li>BTT SKR Mini E3 V3</li>
+                                <li>Klipper</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="project project--education">
+                        <div class="project__media">
+                            <svg class="icon" aria-hidden="true"><use href="#i-tool"/></svg>
+                            <span class="project__tag">Educação</span>
+                        </div>
+                        <div class="project__body">
+                            <h3>Box de Eletrônica</h3>
+                            <p>Kit didático em caixa projetado especificamente para ensinar eletrônica básica na prática e nivelar os conhecimentos dos calouros de engenharia.</p>
+                            <ul class="chips">
+                                <li>Eletrônica básica</li>
+                                <li>Kit didático</li>
+                                <li>Para calouros</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="project project--software">
+                        <div class="project__media">
+                            <svg class="icon" aria-hidden="true"><use href="#i-monitor"/></svg>
+                            <span class="project__tag">Software</span>
+                        </div>
+                        <div class="project__body">
+                            <h3>Laboratório Virtual</h3>
+                            <p>Subprojeto de extensão para simulação de circuitos. Uso extensivo de ferramentas abertas como Tinkercad, LTspice e Falstad para escolas e alunos.</p>
+                            <ul class="chips">
+                                <li>Tinkercad</li>
+                                <li>LTspice</li>
+                                <li>Falstad</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="project project--training">
+                        <div class="project__media">
+                            <svg class="icon" aria-hidden="true"><use href="#i-terminal"/></svg>
+                            <span class="project__tag">Capacitação</span>
+                        </div>
+                        <div class="project__body">
+                            <h3>Minicurso de PyPSA</h3>
+                            <p>Treinamento em <em>Python for Power System Analysis</em>. Focado no cálculo de fluxo de potência, otimização de redes e integração de energias renováveis.</p>
+                            <ul class="chips">
+                                <li>Python</li>
+                                <li>Fluxo de potência</li>
+                                <li>Energias renováveis</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Convite -->
+        <section class="cta" id="junte-se" aria-labelledby="cta-title">
+            <div class="container cta__grid">
+                <div>
+                    <h2 id="cta-title">Pronto para transformar sua graduação?</h2>
+                    <p class="cta__lead">
+                        Deixe de ser apenas um espectador. Venha sujar as mãos de graxa, soldar placas, programar soluções reais e construir um portfólio de peso antes mesmo de se formar.
+                    </p>
+                </div>
+                <div class="cta__action">
+                    <!-- TODO: se o ramo tiver um formulário (Google Forms, por exemplo), trocar este href pelo link do formulário -->
+                    <a class="btn btn--accent btn--lg" href="mailto:ramoieee@ufmt.br?subject=Quero%20participar%20do%20Ramo%20Estudantil%20IEEE%20UFMT&amp;body=Ol%C3%A1!%20Meu%20nome%20%C3%A9%20____%20e%20estudo%20____.%20Quero%20participar%20do%20ramo.">Quero participar</a>
+                    <p class="cta__note">Não exige experiência prévia. Apenas vontade de aprender.</p>
+                    <p class="cta__note">Prefere escrever? <a href="mailto:ramoieee@ufmt.br">ramoieee@ufmt.br</a></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer__grid">
+                <div>
+                    <div class="footer__brand">
+                        <img src="assets/img/logo.svg" alt="" width="40" height="40">
+                        <div>
+                            <p class="footer__name">IEEE UFMT</p>
+                            <p class="footer__sub">Capítulo IES</p>
+                        </div>
+                    </div>
+                    <p class="footer__about">
+                        Ramo estudantil dedicado a fomentar a pesquisa, o desenvolvimento técnico e a inovação tecnológica na Universidade Federal de Mato Grosso.
+                    </p>
+                    <!-- TODO: trocar cada href="#" pelo link real do perfil -->
+                    <div class="social">
+                        <a href="#" aria-label="Instagram do ramo"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+                        <a href="#" aria-label="LinkedIn do ramo"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+                        <a href="#" aria-label="GitHub do ramo"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Links rápidos</h3>
+                    <ul class="stack">
+                        <li><a href="#sobre">Sobre o ramo</a></li>
+                        <li><a href="#projetos">Nossos projetos</a></li>
+                        <li><a href="#junte-se">Participe</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Sociedades</h3>
+                    <ul class="stack">
+                        <li><a href="https://www.ieee-ies.org/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-cpu"/></svg>Industrial Electronics Society (IES)</a></li>
+                        <li><a href="https://ieee-pes.org/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-zap"/></svg>Power &amp; Energy Society (PES), em planejamento</a></li>
+                        <li><a href="https://www.ieee-ras.org/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-robot"/></svg>Robotics &amp; Automation Society (RAS)</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Localização</h3>
+                    <ul class="stack contact">
+                        <li>
+                            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+                            <span>Faculdade de Engenharia (FAENG)<br>Universidade Federal de Mato Grosso<br>Cuiabá - MT</span>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+                            <a href="mailto:ramoieee@ufmt.br">ramoieee@ufmt.br</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bar">
+                <p>&copy; <span id="year">2026</span> Ramo Estudantil IEEE UFMT. Todos os direitos reservados.</p>
+                <p>Desenvolvido com <svg class="icon icon--inline" aria-label="amor"><use href="#i-heart"/></svg> pela equipe de Software IES.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
